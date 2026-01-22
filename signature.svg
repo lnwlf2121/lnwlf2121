@@ -16,11 +16,11 @@
           background-color: #0d1117;
           color: #c9d1d9;
           width: 100%;
-          height: 100%; /* Fills the 80px SVG height */
+          height: 70%; /* Fills the 80px SVG height */
           display: flex;
           align-items: center; /* Vertically Centers */
           position: relative;
-          padding-left: 10px; /* Slight buffer from left edge */
+          padding-left: 20px; /* Slight buffer from left edge */
         }
 
         /* The "Geek Code" (Visible First) */
