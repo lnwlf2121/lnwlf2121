@@ -1,0 +1,40 @@
+<svg fill="none" viewBox="0 0 800 50" width="800" height="50" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .container {
+          font-family: 'Courier New', monospace;
+          font-size: 14px;
+          color: #00ff00; /* Hacker Green */
+          background-color: #000;
+          padding: 10px;
+          border-radius: 5px;
+          cursor: pointer;
+          
+          /* The Magic Animation */
+          animation: vanish 1s ease-in-out 3s forwards;
+        }
+        
+        /* The Hover Revival */
+        .container:hover {
+          animation: none; /* Stop vanishing */
+          opacity: 1 !important;
+          color: #FFFF00; /* Canary Yellow on hover */
+          background-color: #0000FF; /* Superman Blue on hover */
+        }
+
+        @keyframes vanish {
+          to { opacity: 0; }
+        }
+        
+        a { text-decoration: none; color: inherit; display: block; }
+      </style>
+      
+      <div class="container">
+        <a href="mailto:einzeln@gmail.com?subject=ACCESS_CODE_YELLOW_BLUE&body=I%20found%20the%20signature.">
+          [root@eros ~]# GCS d+ s: a-- C++ ULS++++$ P+ L++++ !W E--- N++ o++ K+ w--- O- M+ V--
+        </a>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
