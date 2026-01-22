@@ -12,7 +12,7 @@
 
         .terminal {
           font-family: 'Courier New', monospace;
-          font-size: 14px;
+          font-size: 80px;
           background-color: #0d1117;
           color: #c9d1d9;
           width: 100%;
